@@ -36,3 +36,12 @@ il semble que chaque card ait besoin d'un nom, prénom, address et un label pour
 <summary>un indice ? </summary>
 C'est mort c'est un bonus !
 </details>
+
+## 3: Bonus de la mort
+
+- Essaye d'afficher le bouton si et seulement si une props est envoyé depuis le composant parent
+
+<details>
+<summary>un indice ? </summary>
+C'est MORT DE CHEZ MORT c'est un bonus de la mort !
+</details>
