@@ -1,15 +1,15 @@
 const ProfileCard = () => {
   //todo props are missing here
   return (
-    <section className="profile__container">
-      <h2 className="profile__blue">Nom Prénom</h2>
+    <section className='profile__container'>
+      <h2 className='profile__blue'>Name Firstname</h2>
       <p>
-        <strong>Email</strong> : mon email
+        <strong>Email</strong> : my email
       </p>
       <p>
-        <strong>Adresse</strong> : mon adresse{" "}
+        <strong>Address</strong> : my address
       </p>
-      <button className="button__offer bck__blue">Label</button>
+      <button className='button__offer bck__blue'>Label</button>
     </section>
   );
 };
