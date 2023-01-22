@@ -1,47 +1,47 @@
-# Clone le repo
+# Setup this repo
 
-Git clone <nom_du_repos>
+## Clone
+
+`git clone git@github.com:WildCodeSchool/Workshop-Props-React.git`
 
 ## Install dependencies
 
-In the project directory, you can run:
+In the project directory, you can run `npm i` to install dependencies
 
-### `npm i`
+## FIGHT !
 
-Pour installer les dépendances
+To launch your project: `npm start`. It'll be accessible on [http://localhost:3000](http://localhost:3000)
 
-### `npm start`
+# Exercise about props
 
-Pour lancer le projet sur [http://localhost:3000](http://localhost:3000)
+## 1 : Get your props together
 
-# Exercice sur les props
-
-## 1 : Récupération de props
-
-- Il manque des props dans le composant Profile à toi de les définir
-- Il va falloir les passer au composant enfant, je te laisse y réfléchir
+- The `Profile` component is missing the props (data) it'll send to `ProfileCard`, please define it
+- Once `Profile` sends data, you should think about how `ProfileData` is going to get it
 
 <details>
-<summary>un indice ? </summary>
+<summary>Hint ? </summary>
 <br>
-il semble que chaque card ait besoin d'un nom, prénom, address et un label pour le button
+Every `ProfileCard` needs a name, a firstNae, an address and a text for it's button
 </details>
 
 ## 2: Bonus
 
-- Il y a dans le CSS des class avec des couleurs
-- Essaye de changer la couleur du texte et du bouton grâce au props
+In the CSS files, you'll find classes asociated with colors.
+
+- Try to change the text and the button's color using props
 
 <details>
-<summary>un indice ? </summary>
-C'est mort c'est un bonus !
+<summary>Hint ? </summary>
+It wouldn't be funny to help you, this is a bonus ! ;-)
 </details>
 
-## 3: Bonus de la mort
+## 3: Hyper-Bonus
 
-- Essaye d'afficher le bouton si et seulement si une props est envoyé depuis le composant parent
+- Try to display the button **only** when a specific props (let's say... `displayButton` ?) is sent from `Profile`
 
 <details>
-<summary>un indice ? </summary>
-C'est MORT DE CHEZ MORT c'est un bonus de la mort !
+<summary>Hint ? </summary>
+Haha, you thought you'd get something this time ?
+☜(ﾟヮﾟ☜)
 </details>
