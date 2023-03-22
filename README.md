@@ -22,7 +22,7 @@ To launch your project: `npm start`. It'll be accessible on [http://localhost:30
 <details>
 <summary>Hint ? </summary>
 <br>
-Every `ProfileCard` needs a name, a firstNae, an address and a text for it's button
+Every `ProfileCard` needs a name, a firstName, an address and a text for it's button
 </details>
 
 ## 2: Bonus
